@@ -1,10 +1,10 @@
-import React from 'react'
+import React, {useRef, useReducer} from 'react'
 
 function ProductCollection() {
-    const newEdition = React.useRef()
-    const popular = React.useRef()
-    const grinderRetro = React.useRef()
-    const bestSeller = React.useRef()
+    const newEdition = useRef()
+    const popular = useRef()
+    const grinderRetro = useRef()
+    const bestSeller = useRef()
         
     const initialState = {
       newEdition: true,
@@ -59,7 +59,7 @@ function ProductCollection() {
       }
     }
     
-  const [state, dispatch] = React.useReducer(reducer, initialState)
+  const [state, dispatch] = useReducer(reducer, initialState)
         
     function handleCateg1Clicked() {
       dispatch({type: ACTIONS.NEW_EDITION_CLICKED})
@@ -253,7 +253,7 @@ function ProductCollection() {
     ))
     
     return (
-    <section>
+    <section className='product-collection'>
       <h2>Our collection of products</h2>
         <div className="product-cols">
           <div className="product-col">

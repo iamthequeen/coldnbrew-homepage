@@ -236,7 +236,7 @@ header .columns {
   color: var(--grayish-white);
 }
 
-/* //// 1ST SECTION //// */
+/* //// SPECIAL FEATS SECTION //// */
 section {
   margin: 4rem;
 }
@@ -495,7 +495,7 @@ section h2::before {
   background: var(--orange);
 }
 
-/* // Icons // */
+/* // Icon Shapes // */
 .circles {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -613,13 +613,20 @@ section h2::before {
   top: 0.5rem;
 }
 
-/* //// 2ND SECTION //// */
+/* //// PRODUCT COLLECTION //// */
 .product-cols {
   margin-top: 3rem;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   gap: 1rem;
+  justify-content: center;
+  align-items: center;
 }
+
+/* .product-cols > div {
+  border: 3px solid purple;
+} */
 
 .category {
   font-size: 1.5rem;
@@ -756,7 +763,7 @@ section h2::before {
   text-overflow: ellipsis;
 }
 
-/* //// THIRD SECTION //// */
+/* //// PRODUCT SPOTLIGHT //// */
 
 .two-cols {
   display: flex;
@@ -844,12 +851,13 @@ section:nth-child(4) hr {
   width: 50%;
 }
 
-/* //// FOURTH SECTION //// */
+/* //// ROW OF LOGOS //// */
 .logos {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1.5rem;
+  /* gap: 1.5rem; */
+  gap: 3rem;
 }
 
 .logo-img {
@@ -858,7 +866,7 @@ section:nth-child(4) hr {
   opacity: 0.3;
 }
 
-/* //// FIFTH SECTION //// */
+/* //// BLOG POSTS //// */
 .blog-section > .columns {
   gap: 2rem;
   justify-content: flex-start;
@@ -1240,5 +1248,3 @@ footer .social-icons img {
     flex-direction: column;
   }
 }
-
-/* 1244 lines of code */
