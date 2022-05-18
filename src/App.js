@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/main-sections/Header';
+import Navbar from './components/main-sections/Navbar';
+import SpecialFeatsSection from './components/main-sections/SpecialFeatsSection';
+import Circles from './components/small-sections/icon-shapes/Circles';
+import SquareInCircle from './components/small-sections/icon-shapes/SquareInCircle';
+import SquareStack from './components/small-sections/icon-shapes/SquareStack';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/>
+      <Header/>
+
+        <main>
+
+          <SpecialFeatsSection>
+            <Circles/>
+            <SquareInCircle/>
+            <SquareStack/>
+          </SpecialFeatsSection>
+          
+          
+
+        </main>
+
     </div>
   );
 }
