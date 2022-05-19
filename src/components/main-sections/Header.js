@@ -1,6 +1,7 @@
 import React from 'react'
 import HeroInfoColumns from '../small-sections/HeroInfoColumns'
 
+
 function Header() {
   return (
     <header>
@@ -13,7 +14,7 @@ function Header() {
        </div>
        </div>
       <div className="col">
-        <img src="https://images.unsplash.com/photo-1557551541-ba7165b5f764?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="" className="header-img"/>
+        <img src={"images/heroImg.jpg"} alt="" className="header-img"/>
      </div>
        
  </header>
