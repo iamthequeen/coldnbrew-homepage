@@ -84,7 +84,7 @@ function ProductCollection() {
         price: 139.50,
         name: "Manual Grinder New",
         feature: "Full Spectrum CBD Oil",
-        imgSrc: "https://media.istockphoto.com/photos/coffee-machine-picture-id1194659852?k=20&m=1194659852&s=612x612&w=0&h=uGI2WxIuMGXqO2Hn_qunBz_DnEKqW1WMc3f_tFVQ7lg="
+        imgSrc: "images/coffee-machines/new-edition/manualGrinder.png"
       },
       {
         id: 2,
@@ -92,7 +92,7 @@ function ProductCollection() {
         price: 124.90,
         name: "Electric Burr Coffee",
         feature: "Adjustable Burr Mill",
-        imgSrc: "https://media.istockphoto.com/photos/kitchenware-and-food-isolated-on-white-picture-id965573598?k=20&m=965573598&s=612x612&w=0&h=upVzqXKNL_H3FnNrvfmW0EnuHG0unVHRcxNWpDPeyB8="
+        imgSrc: "images/coffee-machines/new-edition/electricBurr.png"
       },
       {
         id: 3,
@@ -100,7 +100,7 @@ function ProductCollection() {
         price: 108.59,
         name: "Feima Coffee Grinder",
         feature: "Adjustable Boe June",
-        imgSrc: "https://media.istockphoto.com/photos/white-coffee-percolator-with-freshly-brewed-coffee-picture-id185245779?k=20&m=185245779&s=612x612&w=0&h=wOSRJNPDjRih6Kz6Vs9GrDy0z-w9zL9tscqutVN37hU="
+        imgSrc: "images/coffee-machines/new-edition/feimaCoffee.png"
       },
       {
         id: 4,
@@ -108,7 +108,7 @@ function ProductCollection() {
         price: 263.00,
         name: "Moccamaster 10-Cup Coffee Maker",
         feature: "Manual drip-stop brew-basket",
-        imgSrc: "https://media.istockphoto.com/photos/coffee-maker-isolated-on-white-picture-id157405611?k=20&m=157405611&s=612x612&w=0&h=U5_uRYSDhB6zmGdx-3FnrduqmpxbBdVab8udEMENuCs="
+        imgSrc: "images/coffee-machines/popular/moccamaster.png"
       },
       {
         id: 5,
@@ -116,7 +116,7 @@ function ProductCollection() {
         price: 569.00,
         name: "Waring 8-Cup Coffee Maker",
         feature: "Controlled upper and lower warmers",
-        imgSrc: "https://media.istockphoto.com/photos/coffee-maker-picture-id513996488?k=20&m=513996488&s=612x612&w=0&h=R4jXcvpiLqyOq1YaWGgwd67eEOMHxiQRIBwO3LORYsQ="
+        imgSrc: "images/coffee-machines/popular/waring.png"
       },
       {
         id: 6,
@@ -124,7 +124,7 @@ function ProductCollection() {
         price: 74.99,
         name: "Hamilton Beach FlexBrew 49980",
         feature: "Simple single-cup brewing",
-        imgSrc: "https://media.istockphoto.com/photos/coffee-maker-isolated-picture-id174071089?k=20&m=174071089&s=612x612&w=0&h=Ulr-jTOppEFzRMl8dK4MPKCiPlO2D2TheJKmfBnKz3M="
+        imgSrc: "images/coffee-machines/popular/hamiltonBeach.png"
       },
       {
         id: 7,
@@ -132,7 +132,7 @@ function ProductCollection() {
         price: 365.00,
         name: "Ratio Six Coffee Maker",
         feature: "Unique heat shield",
-        imgSrc: "https://media.istockphoto.com/photos/new-coffee-maker-picture-id157334079?k=20&m=157334079&s=612x612&w=0&h=Gh7m7_AHwGVCl3ow89bJgS80MsIsaxO7gF8_iH8eVmc="
+        imgSrc: "images/coffee-machines/grinder-retro/ratioSix.png"
       },
       {
         id: 8,
@@ -140,7 +140,7 @@ function ProductCollection() {
         price: 99.95,
         name: "Cuisinart DCC-3200",
         feature: "14 Cup Glass Carafe",
-        imgSrc: "https://media.istockphoto.com/photos/coffee-maker-isolated-picture-id487858375?k=20&m=487858375&s=612x612&w=0&h=uV6l4Tri6as4-ESHuSnZwoIA9NaSDtkVU0PgzPhMDyA="
+        imgSrc: "images/coffee-machines/grinder-retro/cuisinart.png"
       },
       {
         id: 9,
@@ -148,7 +148,7 @@ function ProductCollection() {
         price: 144.00,
         name: "Bonavita 8-Cup One-Touch Coffee Maker",
         feature: "Adjustable Coffee Strength",
-        imgSrc: "https://media.istockphoto.com/photos/coffee-maker-isolated-on-white-picture-id157405611?k=20&m=157405611&s=612x612&w=0&h=U5_uRYSDhB6zmGdx-3FnrduqmpxbBdVab8udEMENuCs="
+        imgSrc: "images/coffee-machines/grinder-retro/bonavita.png"
       },
       {
         id: 10,
@@ -156,7 +156,7 @@ function ProductCollection() {
         price: 229.99,
         name: "OXO On 9-Cup Coffee Maker",
         feature: "Integrated bloom cycle",
-        imgSrc: "https://media.istockphoto.com/photos/coffee-machine-isolated-on-white-picture-id1147159644?k=20&m=1147159644&s=612x612&w=0&h=8eVhSnP712MbgNGigDkiuh2j6kNGXlokmTw9rFY0LZw="
+        imgSrc: "images/coffee-machines/best-seller/oxoOn.png"
       },
       {
         id: 11,
@@ -164,7 +164,7 @@ function ProductCollection() {
         price: 129.98,
         name: "Ninja Specialty Coffee Maker",
         feature: "Fold-Away Frother",
-        imgSrc: "https://media.istockphoto.com/photos/coffee-maker-with-fresh-brewed-coffee-isolated-picture-id486169007?k=20&m=486169007&s=612x612&w=0&h=OdAYmLeqmAQbMn_iimt7bSDSGRrpHi6EfAGK22D4YvY="
+        imgSrc: "images/coffee-machines/best-seller/ninjaSpecialty.png"
       },
       {
         id: 12,
@@ -172,7 +172,7 @@ function ProductCollection() {
         price: 99.50,
         name: "De'Longhi Stilosa 15",
         feature: "15 bar pump",
-        imgSrc: "https://media.istockphoto.com/photos/espresso-machine-picture-id104263378?k=20&m=104263378&s=612x612&w=0&h=r1G5rkUtBZnyNwPvRmvU3mZAqaWV8gJHFqaaSrfQeFM="
+        imgSrc: "images/coffee-machines/best-seller/delonghi.png"
       }
     ]
     
