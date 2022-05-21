@@ -5,27 +5,27 @@ function RowOfLogos() {
       {
         id: 1,
         name: "Mr. Coffee",
-        imgSrc: "https://cdn.freebiesupply.com/logos/large/2x/mr-coffee-logo-png-transparent.png"
+        imgSrc: "images/logos/mr-coffee.png"
       },
       {
         id: 2,
         name: "New Holland Coffee Co",
-        imgSrc: "https://www.newhollandcoffee.com/wp-content/uploads/2017/05/New-Holland-Coffee_logo-300x252.png"
+        imgSrc: "images/logos/new-holland-coffee.png"
       },
       {
         id: 3,
         name: "Frontier Organic Coffee",
-        imgSrc: "https://www.kindpng.com/picc/m/714-7145310_frontier-organic-coffee-logo-png-transparent-frontier-natural.png"
+        imgSrc: "images/logos/frontier-organic-coffee.png"
       },
       {
         id: 4,
         name: "Gloria Jean's coffee",
-        imgSrc: "https://assets.simon.com/tenantlogos/2225.png"
+        imgSrc: "images/logos/gloria-jeans-coffees.png"
       },
       {
         id: 5,
         name: "Kauai Coffee",
-        imgSrc: "https://cdn.freebiesupply.com/logos/large/2x/kauai-coffee-logo-png-transparent.png"
+        imgSrc: "images/logos/kauai-coffee.png"
       }
     ]
     
