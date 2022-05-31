@@ -868,7 +868,6 @@ section:nth-child(4) hr {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* gap: 1.5rem; */
   gap: 3rem;
 }
 
@@ -1077,12 +1076,14 @@ footer hr {
 }
 
 footer .social-icons {
-  gap: 1rem;
+  padding-right: 1rem;
   align-items: center;
 }
 
 footer .social-icons img {
   width: 1.5rem;
+  /* padding-right: 1rem; */
+  /* border: 3px solid white; */
 }
 
 @media (max-width: 63.75rem) {
