@@ -391,10 +391,15 @@ button {
 
 svg {
   stroke: #fff;
+  z-index: 3;
 }
 
 .arrow {
   height: 24px;
+  z-index: 3;
+}
+
+.leaf {
   z-index: 3;
 }
 
@@ -823,6 +828,11 @@ section:nth-child(4) h3 + p,
   position: relative;
 }
 
+.btn-links a:last-child {
+  display: flex;
+  width: 7.5rem;
+}
+
 .last-link-container {
   display: flex;
   align-items: center;
@@ -1054,7 +1064,6 @@ footer hr {
 
 #footer-bottom {
   justify-content: space-between;
-  flex-wrap: wrap;
   gap: 0.5rem;
 }
 
@@ -1245,6 +1254,15 @@ footer .social-icons img {
   .text-of-col .two-cols {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .numbers-and-icons {
+    flex-direction: column-reverse;
+    gap: 0.5rem;
+  }
+
+  #footer-bottom {
+    flex-direction: column;
   }
 }
 

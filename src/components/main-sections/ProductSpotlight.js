@@ -31,6 +31,7 @@ function ProductSpotlight() {
             </div>
           <div className="btn-links">
             <a className="black-btn" href="#0">Buy Now</a>
+            
             <a href="#0">
             <div className="last-link-container">
               
